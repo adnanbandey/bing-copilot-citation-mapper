@@ -22,7 +22,7 @@ If you have thousands of queries, this takes days. This script automates the int
 - `pandas` and `requests` libraries
 
 
-1.Create a credential file:
+1. Create a credential file:
 In your local project folder, create a simple text file named env.txt. Paste your raw session headers inside it exactly like this:
 
 BING_COOKIE=YOUR_MASSIVE_COOKIE_STRING_FROM_NETWORK_TAB
