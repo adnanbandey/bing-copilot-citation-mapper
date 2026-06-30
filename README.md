@@ -25,8 +25,9 @@ If you have thousands of queries, this takes days. This script automates the int
 1. Create a credential file:
 In your local project folder, create a simple text file named env.txt. Paste your raw session headers inside it exactly like this:
 
-BING_COOKIE=YOUR_MASSIVE_COOKIE_STRING_FROM_NETWORK_TAB
-BING_CSRF=YOUR_CSRF_TOKEN_FROM_NETWORK_TAB
+  BING_COOKIE=YOUR_MASSIVE_COOKIE_STRING_FROM_NETWORK_TAB
+
+  BING_CSRF=YOUR_CSRF_TOKEN_FROM_NETWORK_TAB
 
 2. Run the Notebook:
 Open your Jupyter workspace, adjust the SITE_URL and DateRange fields inside Cell 1 to match your website, and run the notebook cells sequentially.
